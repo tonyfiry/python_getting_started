@@ -1,0 +1,14 @@
+<data 名稱="e-happy">
+	<person 姓名="David">
+		<身高>183</身高>
+		<興趣>長跑</興趣>
+	</person>
+	<parson 名字="togd">
+		<身高>185</身高>
+		<興趣>足球</興趣>
+	</parson>
+	<person 姓名="Chiou">
+		<身高>170</身高>
+		<興趣>籃球</興趣>
+	</person>
+</data>
