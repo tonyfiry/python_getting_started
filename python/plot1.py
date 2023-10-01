@@ -92,21 +92,24 @@
 
 
 # matplotlib圖示改中文
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
-year = [2018,2019,2020,2021,2022,2023]
-list1 = [20,15,20,22,55,90]
-plt.plot(year,list1,'g--s',lw="1.5",ms="6",label="apple")
-list2 = [1,20,30,45,55,80]
-plt.plot(year,list2,'b--s',lw="1.5",ms="6",label="banana")
-plt.ylim(0,100)
-plt.xticks(year)
-plt.tick_params(axis='both',labelsize="10",color="black")
-plt.rcParams['font.sans-serif'] = 'Microsoft JhengHei'
-plt.rcParams['axes.unicode_minus'] = False 
-plt.title("標題",fontsize=18)
-plt.xlabel("年數",fontsize=18)
-plt.ylabel("分數",fontsize=18)
-plt.grid(color="grey",lw='1',ls='--',alpha=0.5)# 設定格線
-plt.show()
+# year = [2018,2019,2020,2021,2022,2023]
+# list1 = [20,15,20,22,55,90]
+# plt.plot(year,list1,'g--s',lw="1.5",ms="6",label="apple")
+# list2 = [1,20,30,45,55,80]
+# plt.plot(year,list2,'b--s',lw="1.5",ms="6",label="banana")
+# plt.ylim(0,100)
+# plt.xticks(year)
+# plt.tick_params(axis='both',labelsize="10",color="black")
+# plt.rcParams['font.sans-serif'] = 'Microsoft JhengHei'
+# plt.rcParams['axes.unicode_minus'] = False 
+# plt.title("標題",fontsize=18)
+# plt.xlabel("年數",fontsize=18)
+# plt.ylabel("分數",fontsize=18)
+# plt.grid(color="grey",lw='1',ls='--',alpha=0.5)# 設定格線
+# plt.show()
+
+import twstock
+twstock.__update_codes()
